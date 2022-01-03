@@ -1,3 +1,5 @@
+// https://codeforces.com/problemset/problem/4/A
+
 /// Whether a watermellon of weight [w] in kilograms can be divided into
 /// two pieces whose weights are even numbers.
 ///
