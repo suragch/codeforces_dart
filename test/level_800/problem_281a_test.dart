@@ -1,5 +1,4 @@
-import 'package:codeforces_dart/problem_281a.dart';
-import 'package:codeforces_dart/problem_71a.dart';
+import 'package:codeforces_dart/level_800/problem_281a.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -9,7 +8,7 @@ void main() {
       expect(() => captitalizeWord('a' * 2000), throwsArgumentError);
     });
 
-    test('valid input returns correct Boolean', () {
+    test('valid input returns capitalized word', () {
       expect(captitalizeWord('ApPLe'), 'ApPLe');
       expect(captitalizeWord('konjac'), 'Konjac');
       expect(captitalizeWord('k'), 'K');

@@ -1,4 +1,4 @@
-import 'package:codeforces_dart/problem_71a.dart';
+import 'package:codeforces_dart/level_800/problem_71a.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -8,7 +8,7 @@ void main() {
       expect(() => shortenWords('a' * 200), throwsArgumentError);
     });
 
-    test('valid input returns correct Boolean', () {
+    test('valid input returns shortened word', () {
       expect(shortenWords('4'), '');
       expect(shortenWords('4.1'), '');
       expect(shortenWords('word'), 'word');

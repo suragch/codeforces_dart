@@ -1,4 +1,4 @@
-import 'package:codeforces_dart/problem_4a.dart';
+import 'package:codeforces_dart/level_800/problem_4a.dart';
 import 'package:test/test.dart';
 
 void main() {
