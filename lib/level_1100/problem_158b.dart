@@ -14,7 +14,6 @@ int minTaxis(List<int> groups) {
     frequencyList[size]++;
   }
 
-  print(frequencyList);
   var totalTaxis = 0;
 
   // all of the size 4 groups need their own taxi
