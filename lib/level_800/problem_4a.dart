@@ -7,5 +7,5 @@
 bool canDivideWatermellonInEvenKilos(int w) {
   if (w < 1) throw ArgumentError('The weight must not be less than 1.');
   if (w > 100) throw ArgumentError('The weight must not be greater than 100.');
-  return w.isEven && (w ~/ 2).isEven;
+  return w.isEven && w > 2;
 }

@@ -12,6 +12,7 @@ void main() {
       expect(canDivideWatermellonInEvenKilos(8), true);
       expect(canDivideWatermellonInEvenKilos(9), false);
       expect(canDivideWatermellonInEvenKilos(2), false);
+      expect(canDivideWatermellonInEvenKilos(6), true);
     });
   });
 }
